@@ -55,7 +55,7 @@
 
 ## Test the API using Postman
 
-## Register a new user using the http://localhost:3000/api/auth/signup endpoint.
+#### Register a new user using the http://localhost:3000/api/auth/signup endpoint.
 
 ## Tech Stack
 
