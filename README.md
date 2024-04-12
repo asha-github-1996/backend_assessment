@@ -9,7 +9,7 @@
 1. #### Clone the repo using this command
 
    ```bash
-   git clone https://github.com/ashraf-kabir/mern-ecommerce.git
+   git clone https://github.com/asha-github-1996/backend_assessment.git
    ```
 
 2. #### Install npm packages
