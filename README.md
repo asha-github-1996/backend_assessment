@@ -4,8 +4,6 @@
 
 - Task 2 : Secure API Endpoint for Authenticated Users Only
 
-## Demo: https://real-estate-ds9g.onrender.com/
-
 ## Installation process
 
 1. #### Clone the repo using this command
@@ -45,19 +43,14 @@
 
 ## Test the API using Postman
 
-#### Register a new user using the http://localhost:3000/api/auth/signup endpoint.
+### Endpoints
 
-#### Login using the http://localhost:3000/api/auth/signin endpoint to get a JWT token.
+#### Signup - http://localhost:3000/api/auth/signup
 
-#### Logout using the http://localhost:3000/api/auth/signout endpoint
+#### Signin - http://localhost:3000/api/auth/signin
 
-#### Access the http://localhost:3000/api/user/:id endpoint to get the user details.
+#### Logout - http://localhost:3000/api/auth/signout
 
-#### Update the use profile using http://localhost:3000/api/user/update/:id endpoint.
+#### Get user details - http://localhost:3000/api/user/:id
 
-## Tech Stack
-
-- MongoDB
-- Express.js
-- Reactjs
-- Nodejs
+#### Update user - http://localhost:3000/api/user/update/:id
