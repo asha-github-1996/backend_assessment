@@ -44,7 +44,11 @@
 5. Test the API using Postman.
 
    ```bash
-   - Register a new user using the http://localhost:3000/api/signup endpoint.
+   - Register a new user using the http://localhost:3000/api/auth/signup endpoint.
+   - Login using the http://localhost:3000/api/auth/signin endpoint to get a JWT token.
+   - Logout using the http://localhost:3000/api/auth/signout endpoint
+   - Access the http://localhost:3000/api/user/:id endpoint to get the user details.
+   - Update the use profile using http://localhost:3000/api/user/update/:id endpoint.
    ```
 
 ### Server runs on http://localhost:3000
